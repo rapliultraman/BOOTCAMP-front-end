@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&family=Roboto:wght@300&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url("bebek.jpeg");
+    margin: 0;
+    padding: 0;
+  }
+
+  header, footer {
+    box-sizing: border-box;
+    background-color: #344128;
+    color: white;
+    padding: 10px;
+    font-family:'Pangolin', cursive;
+  }
+
+    li {
+        list-style: none;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+        font-size: 1rem;
+    }
+
+    a:hover {
+        color: orange;
+    }
+
+  main {
+      width: 800px;
+      height: 700px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+      h2 {
+        font-family:'Pangolin', cursive;
+      }
+
+    aside {
+        float: right;
+        width: 40%;
+        height: 96%;
+        padding: 10px;
+        background-color: #f9f9f9;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+
+    
+    div {
+        float: left; 
+        size: 70%;
+    }
+
+    section {
+      margin-bottom: 20px;
+    }
+
+    article {
+      float: inline-start;
+      max-width: 400px;
+      padding: 10px;
+      background-color: #f9f9f9;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+  
+      form {
+        max-width: 60%;
+        margin-top: 20px;
+        padding: 10px;
+        background-color: #f9f9f9;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
