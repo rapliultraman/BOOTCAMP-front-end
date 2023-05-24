@@ -1,3 +1,3 @@
 function submitform(){
-    alert("Your Suggestion has been sended!");
+    alert("okee udeh di respon yee");
 }
